@@ -494,7 +494,7 @@ select{line-height:31px;height:31px;vertical-align:middle;background-color:#fff;
 /** 模板公用部分 */
 *{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
 .v2-ac:after{content:" "; clear:both; display:block;}
-.v2-to{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.v2-to{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;font-weight: bolder}
 .v2-lc{overflow:hidden; word-break:break-all; text-overflow:ellipsis; -webkit-box-orient:vertical; display:-webkit-box; -webkit-line-clamp:2;}
 .v2-list{list-style:none;}
 .v2-dbox{display:-moz-box; display:-webkit-box; display:box;}
