@@ -43,10 +43,8 @@ a:hover{color:#999;text-decoration:none;}
 .search-home-v2 .navsearch_input input{background:none; border:none; color:#ddd; font-size:18px}
 
 /** 浅色风格 导航 */
-.nav-v2 .navdown{border-top:1px solid #000; background:#343434
-
-
-;}
+.nav-v2 .navdown{border-top:1px solid #000; background:#343434;
+background-image:url("../images/k.png");background-size: cover;}
 .nav-v2 li{background:#fff;}
 .nav-v2 li>a{color:#F1E8D9
 ;; padding:0px;}
@@ -203,7 +201,15 @@ font-style:normal; line-height:50px; text-align:center; font-size:30px; color:#9
 .v2-link a{display:inline-block;margin:0 12px 10px 0;color:#646363;white-space:nowrap;}
 .v2-link a:hover{color:#ababab;}
 .v2-link a img{height:45px;}
-.v2_footer{position:relative; padding:30px 0; background:#343434; color:#666; font-size:13px;}
+.v2_footer{
+	position: relative;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: #343434;
+	color: #666;
+	font-size: 13px;
+}
 .v2_footer a{color:#666;}
 .v2_footer a:hover{color:#888;}
 .v2_footer_text{float:left; padding-left:0px;background:#343434;}
@@ -226,7 +232,9 @@ body,h1,h2,h3,h4,h5,h6,dl,dt,li,ol,ul,dd,th,td,p,pre,form,input,button,textarea,
 	background: #F1E8D9;
 }
 h1,h2,h3,h4,h5,h6{font-size:100%}
-img{border:0}
+img{
+	border: 10%
+}
 button,input,select,textarea{font-size:100%}
 .met_clear{clear:both}
 .met_none{display:none}
@@ -529,7 +537,7 @@ select{line-height:31px;height:31px;vertical-align:middle;background-color:#fff;
 			.sidebar-v2 .container-fluid{padding:0px;}
 			.sidebar-v2 .navbar-header{border:1px solid #ddd; margin-right:0px; margin-left:0px;}
 			.sidebar-v2__h1 button{display:none;}
-			.sidebar-v2__button{position:relative; width:70px; height:70px; float:right; padding:0px; margin:0px; background-color:transparent; background-image:none; border:none; border-radius:0px; border-left:1px solid #ddd;}
+			.sidebar-v2__button{position:relative; width:70px; height:70px; float:right; padding:0px; margin:0px; background-color:transparent;  border:none; border-radius:0px; border-left:1px solid #ddd;}
 			.sidebar-v2__button span{font-size:18px;}
 			#sidebar-v2__list2{border:1px solid #ddd; border-top:none;}
 			#sidebar-v2__list2 ul li a .arrow{display:none;}
