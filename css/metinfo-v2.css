@@ -45,7 +45,7 @@ a:hover{color:#999;text-decoration:none;}
 /** 浅色风格 导航 */
 .nav-v2 .navdown{border-top:1px solid #000; background:#343434;
 background-image:url("../images/k.png");background-size: cover;}
-.nav-v2 li{background:#fff;}
+.nav-v2 li{background:#F1E8D9;}
 .nav-v2 li>a{color:#F1E8D9
 ;; padding:0px;}
 .nav-v2 li:hover{
@@ -62,7 +62,7 @@ background-image:url("../images/k.png");background-size: cover;}
 }
 .search-home-v2 .navsearch_input input{color:#666;}
 @media(max-width:768px){
-.nav-v2 .navdown{background:#f8f8f8; border-top:1px solid #eef1f1;}
+.nav-v2 .navdown{background:#343434; border-top:1px solid #eef1f1;}
 .nav-v2>li:hover{background:#f8f8f8; border-top:1px solid #eef1f1;}
 .nav-v2>li>a:hover{background-color:#f8f8f8;}
 }
